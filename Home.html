@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Home</title>
+    <link href="NavBar.css" rel="stylesheet" type="text/css">
+    <ul>
+        <li>
+            <div class="dropdownhome">
+                <span><u>HOME</u></span>
+                <div class="dropdownhome-content">
+                    <p><a href="Home.html">Home</a></p>
+                </div>
+            </div>
+        </li>
+        <li>
+            <div class="dropdowntype">
+                <span><u>TYPES OF WATER</u></span>
+                <div class="dropdowntype-content">
+                    <p><a href="Tap.html">Tap</a></p>
+                    <p><a href="Mineral.html">Mineral</a></p>
+                    <p><a href="Spring.html">Spring</a></p>
+                    <p><a href="Sparkling.html">Sparkling</a></p>
+                    <p><a href="Distilled.html">Distilled</a></p>
+                    <p><a href="Purified.html">Purified</a></p>
+                    <p><a href="Flavored.html">Flavored</a></p>
+                    <p><a href="Alkaline.html">Alkaline</a></p>
+                    <p><a href="Well.html">Well</a></p>
+                </div>
+            </div>
+        </li>
+      </ul>
+      <style>
+        a:link {color:aqua}
+        a:visited {color:orange}
+      </style>
+</head>
+<body background="download.avif";>
+    <i><header style="font-size:150px;">About Me</header></i>
+    <p style="color:orange">My name is Christian Moritz.<br>
+    I am 16 years old and live in Harrison Ohio.<br>
+    I have a brother, sister and step siblings (Family is kind of screwed up)<br>
+    I hope to go to the Univercity of Cinncinati and enter into either cybersecurity or data analytics fields when I get a bit older.<br>
+    Really cool picture of me in the bathroom.<br>
+    Also a really cute picture of my dog Annabell.
+    </p>
+    <img class="img" width="400" height="470" border="2px" src="thumbnail_Image.jpg">
+    <img width="470" height="350" border="2px" src="thumbnail_Image (1).jpg">
+    <p style="color:orange">If you want to order some water from me then please fill out the following form.</p>
+    <form>
+        <label for="fname">Full Name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="email">Email:</label><br>
+        <input type="text" id="email" name="email"><br>
+        <label for="water">Type of Water:</label>
+        <select id="water" name="water">
+            <option value="choose">Choose one</option>
+            <option value="tap">Tap</option>
+            <option value="mineral">Mineral</option>
+            <option value="spring">Spring</option>
+            <option value="sparkling">Sparkling</option>
+            <option value="distilled">Distilled</option>
+            <option value="purified">Purified</option>
+            <option value="flavored">Flavored</option>
+            <option value="alkaline">Alkaline</option>
+            <option value="well">Well</option>
+        </select>
+        <input type="submit">
+        <input type="reset">
+    </form>
+    <style>
+        .img {
+            filter: grayscale(100%);
+        }
+    </style>
+    <footer style="font-size:150px;"><i>Explore The Wide World Of Water</i></footer>
+</body>
+</html>
